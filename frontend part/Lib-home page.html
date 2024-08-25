@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <title>Library segregator/home</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="D:/web development/_Bootstrap css/bootstrap.css" rel="stylesheet">
+        <link href="lib-home page.css" rel="stylesheet">
+        <script src="D:/web development/_Bootstrap js/bootstrap.js"></script>     
+    </head>
+    <body class="back">
+        <script>
+            function showMe()
+            { 
+                document.getElementById("hid").style.visibility='visible';
+            }
+        </script>
+        <form>
+            <div class="form-group div1">
+              <label class="part1" >Upload your book here:</label><br><br>
+              <input type="file" class="form-control-file part2"><br>
+              <button type="button" class="btn btn-primary" onclick="showMe()" style="margin-top: 8px;">Find Genre </button><br><br>
+              <div id="hid" style="visibility: hidden;">
+                <span class="part3">Genre Of Book:</span>
+                <span class="part4">history</span><br>
+                <button type="button" class="btn btn-success" style="margin-top: 8px;">Send To Library</button>
+              </div>
+            </div>
+          </form>
+    </body>
+    </html>

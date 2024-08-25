@@ -1,0 +1,42 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.back{
+    background-image: url("lib-home.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 770px ;
+    
+}
+.div1{
+    position: relative;
+    top:360px;
+    left:100px;
+}
+.part1{
+    color: white;
+    font-size: 30px;
+}
+.part2{   
+    font-size: 20px;
+    color:rgb(250, 151, 171);
+    width:600px;
+}
+.part3{
+    font-size:24px;
+    color:white;
+    
+}
+.part4{ color:greenyellow;
+    font-size:21px ;
+    border-bottom: 1px solid;
+    margin-left: 7px;
+    width:40px;
+}
+input[type=file]::file-selector-button {
+    border: 1px solid #f6f6fa;
+    padding: .2em .4em;
+    border-radius: .2em;
+    background-color: #6b6a6e;
+    cursor: pointer;
+    width:150px;
+  }
